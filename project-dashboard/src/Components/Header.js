@@ -11,12 +11,12 @@ class Header extends Component {
             <div className = "header">
                 <div className = "header-part1">
                     <div className = "section1">
-                        <img src = "icons8-search-50.png" alt = "Search Icon" />
+                        <img src = "icons8-search-50.png" alt = "Search Icon" className = "icons" />
                         <input type = "text" id = "search" name = "search" />
                     </div>
                     <div className = "section2">
-                        <img src = "icons8-alarm-48.png" alt = "Notification Icon" />
-                        <img src = "icons8-male-user-100.png" alt = "Profile Icon" />
+                        <img src = "icons8-alarm-48.png" alt = "Notification Icon" className = "icons" />
+                        <img src = "icons8-male-user-100.png" alt = "Profile Icon" className = "profile-icon" />
                         <span>Abhishek Choudhari</span>
                     </div>
                 </div>
@@ -25,8 +25,8 @@ class Header extends Component {
                     <div className = "section3">
                         <img src = "icons8-male-user-100.png" alt = "Profile Icon" />
                         <div className = "section3-part2">
-                            <p>Hi there,</p>
-                            <p>Abhishek Choudhari (@abhishek)</p>
+                            <p className = "small-font">Hi there,</p>
+                            <p className = "big-font">Abhishek Choudhari (@abhishek)</p>
                         </div>
                     </div>
 
