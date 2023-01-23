@@ -1,3 +1,4 @@
+
 .header{
   padding-top : 2vh;
   padding-bottom : 2vh;
@@ -6,6 +7,7 @@
   width : 76%;
   position : absolute;
   right : 0;
+  background-color : white;
   box-shadow : 0px 2px 4px 1px rgb(174, 174, 174);
 }
 
@@ -137,7 +139,7 @@
   position : absolute;
   background-color : #10a1e4e1;
   width :  16%;
-  height : 100%;
+  height : 143vh;
   font-family : 'Roboto', sans-serif;
   color : white;
   font-size : 1vw;
@@ -154,7 +156,6 @@
   transform : scale(1.2);
   transition : 0.2s;
   cursor : pointer;
-  color : black;
   text-decoration : underline;
 }
 
@@ -184,4 +185,55 @@
 
 .row1 {
   margin-bottom : 4vh;
+}
+
+.main {
+  position : absolute;
+  top : 22.5%;
+  left : 16%;
+  width : 82.5%;
+  padding : 1.5vh 1.5vh 1.5vh 1.5vh;
+
+}
+
+.headings {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : center;
+  padding-left : 8vh;
+  padding-right : 8vh;
+  font-weight : 600;
+}
+
+.card {
+  width : 18vw;
+  background-color : white;
+  border-radius : 5px;
+  border-left : 0.6vw solid rgba(255, 166, 0, 0.695);
+  padding : 2vh 3vw 2vh 2vw;
+}
+
+.card-links {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-around;
+  align-items : center;
+  width : 40%;
+  position : relative;
+  left : 60%;
+}
+
+.card-links img {
+  height : auto;
+  width : 1.5vw;
+}
+
+.card-parent {
+  border-bottom : 4.5vh solid transparent;
+  padding : 0 8vh 0 8vh;
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : center;
 }
