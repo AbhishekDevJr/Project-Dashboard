@@ -10,53 +10,53 @@ class Sidebar extends Component{
         return(
             <div className = "sidebar">
                 <div className = "row1">
-                    <img src = "" alt = "Dashboard Icon" />
+                    <img src = "icons8-dashboard-layout-48.png" alt = "Dashboard Icon" />
                     <h2>Dashboard</h2>
                 </div>
 
                 <div className = "row2">
-                    <img src = "" alt = "Home Icon" />
-                    <a href = "">Home</a>
+                    <img src = "icons8-home-page-40.png" alt = "Home Icon" />
+                    <a href = "/" target = "_blank">Home</a>
                 </div>
 
                 <div className = "row3">
-                    <img src = "" alt = "Profile Icon" />
-                    <a href = "">Profile</a>
+                    <img src = "icons8-user-menu-male-40.png" alt = "Profile Icon" />
+                    <a href = "/" target = "_blank">Profile</a>
                 </div>
 
                 <div className = "row4">
-                    <img src = "" alt = "Messages Icon" />
-                    <a href = "">Messages</a>
+                    <img src = "icons8-messages-60.png" alt = "Messages Icon" />
+                    <a href = "/" target = "_blank">Messages</a>
                 </div>
 
                 <div className = "row5">
-                    <img src = "" alt = "History Icon" />
-                    <a href = "">History</a>
+                    <img src = "icons8-time-machine-40.png" alt = "History Icon" />
+                    <a href = "/" target = "_blank">History</a>
                 </div>
 
                 <div className = "row6">
-                    <img src = "" alt = "Tasks Icon" />
-                    <a href = "">Tasks</a>
+                    <img src = "icons8-list-64.png" alt = "Tasks Icon" />
+                    <a href = "/" target = "_blank">Tasks</a>
                 </div>
 
                 <div className = "row7">
-                    <img src = "" alt = "Communities Icon" />
-                    <a href = "">Communities</a>
+                    <img src = "icons8-people-40.png" alt = "Communities Icon" />
+                    <a href = "/" target = "_blank">Communities</a>
                 </div>
 
                 <div className = "row8">
-                    <img src = "" alt = "Settings Icon" />
-                    <a href = "">Settings</a>
+                    <img src = "icons8-gear-100.png" alt = "Settings Icon" />
+                    <a href = "/" target = "_blank">Settings</a>
                 </div>
 
                 <div className = "row9">
-                    <img src = "" alt = "Support Icon" />
-                    <a href = "">Support</a>
+                    <img src = "icons8-inquiry-64.png" alt = "Support Icon" />
+                    <a href = "/" target = "_blank">Support</a>
                 </div>
 
                 <div className = "row10">
-                    <img src = "" alt = "Privacy Icon" />
-                    <a href = "">Privacy</a>
+                    <img src = "icons8-privacy-64.png" alt = "Privacy Icon" />
+                    <a href = "/" target = "_blank">Privacy</a>
                 </div>
             </div>
         );
