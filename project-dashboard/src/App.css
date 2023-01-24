@@ -228,6 +228,12 @@
 .card-links img {
   height : auto;
   width : 1.5vw;
+  transition : 0.3s;
+}
+
+.card-links img:hover {
+  transform : rotateZ(360deg);
+  transition : 0.4s;
 }
 
 .card-parent {
@@ -237,4 +243,31 @@
   flex-direction : row;
   justify-content : space-between;
   align-items : center;
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .header {
+    display : block;
+    border : 1px solid cyan;
+    width : 100%;
+    position : static;
+  }
+
+  .header-part1 {
+    width : 85%;
+  }
+
+  .header-part2 {
+    width : 85%;
+  }
+
+  .sidebar {
+    position : static;
+    display : flex;
+    width : 100%;
+    height : auto;
+    font-size : 14px;
+    flex-wrap : wrap;
+  }
 }

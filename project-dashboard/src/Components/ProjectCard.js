@@ -9,11 +9,11 @@ class ProjectCard extends Component {
     render(){
         return(
             <div className = "card-parent">
-            <div className = "card">
+            <div className = "card" style = {{backgroundColor : 'red'}}>
                 <strong><p>{this.props.pName1}</p></strong>
                 <p>{this.props.content1}</p>
                 <div className = "card-links">
-                    <a href = {this.props.gitHubUrl1} target = "_blank"><img src = "icons8-christmas-star-50.png" alt = "Star Icon"/></a>
+                    <a href = {this.props.gitHubUrl1} target = "_blank"><img src = "icons8-github-48.png" alt = "Star Icon"/></a>
                     <a href = {this.props.projectUrl1} target = "_blank"><img src = "icons8-ophthalmology-30.png" alt = "View Icon"/></a>
                 </div>
             </div>
@@ -22,8 +22,8 @@ class ProjectCard extends Component {
             <strong><p>{this.props.pName2}</p></strong>
                 <p>{this.props.content2}</p>
                 <div className = "card-links">
-                    <a href = {this.props.gitHubUrl2}><img src = "icons8-christmas-star-50.png" alt = "Star Icon"/></a>
-                    <a href = {this.props.projectUrl2}><img src = "icons8-ophthalmology-30.png" alt = "View Icon"/></a>
+                    <a href = {this.props.gitHubUrl2} target = "_blank"><img src = "icons8-github-48.png" alt = "Star Icon"/></a>
+                    <a href = {this.props.projectUrl2} target = "_blank"><img src = "icons8-ophthalmology-30.png" alt = "View Icon"/></a>
                 </div>
             </div>
 
