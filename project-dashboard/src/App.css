@@ -196,13 +196,14 @@
 
 }
 
+
 .headings {
   display : flex;
   flex-direction : row;
   justify-content : space-between;
   align-items : center;
   padding-left : 8vh;
-  padding-right : 8vh;
+  padding-right : 40vh;
   font-weight : 600;
 }
 
