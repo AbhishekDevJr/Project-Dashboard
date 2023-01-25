@@ -139,7 +139,7 @@
   position : absolute;
   background-color : #10a1e4e1;
   width :  16%;
-  height : 143vh;
+  height : 147.5vh;
   font-family : 'Roboto', sans-serif;
   color : white;
   font-size : 1vw;
@@ -209,10 +209,13 @@
 
 .card {
   width : 18vw;
+  height : 30vh;
   background-color : white;
   border-radius : 5px;
   border-left : 0.6vw solid rgba(255, 166, 0, 0.695);
   padding : 2vh 3vw 2vh 2vw;
+  background-color : #10a1e4e1;
+  box-shadow : -4px 4px 4px 2px rgba(0, 0, 0, 0.486);
 }
 
 .card-links {

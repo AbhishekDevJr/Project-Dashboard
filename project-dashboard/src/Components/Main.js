@@ -21,6 +21,9 @@ class Main extends Component {
         let projectDiscription5 = "This project is a Landing Page. I have built this page to understand concepts like positioning and laying elements out responsively.";
 
         let projectDiscription6 = "This project is a clone of Nvidia Website. I have built this clone website to cover concepts like CSS Box Model and how to use it to have a responsive layout & a clear structure between elements and it's contents.";
+        let imageUrl = 'project-1.png';
+        let styleCard1 = {
+        };
         return(
             <div className = "main">
                 <main>
@@ -30,7 +33,7 @@ class Main extends Component {
                     </div>
 
                     <div className = "project-row1">
-                        <ProjectCard projectUrl1 = "https://razorbyabhishek.netlify.app/" gitHubUrl1 = "https://github.com/AbhishekDevJr/Razer-Clone-React" pName1 = "Razor WebSite Clone" content1 = {projectDiscription1} projectUrl2 = "https://etch-a-sketch-by-abhishek.netlify.app/" gitHubUrl2 = "https://github.com/AbhishekDevJr/Etch-A-Sketch" pName2 = "Etch-A-Sketch Project" content2 = {projectDiscription2} content3 = {"Announcement discription." + dummyText}
+                        <ProjectCard styleCard1 = {styleCard1} projectUrl1 = "https://razorbyabhishek.netlify.app/" gitHubUrl1 = "https://github.com/AbhishekDevJr/Razer-Clone-React" pName1 = "Razor WebSite Clone" content1 = {projectDiscription1} projectUrl2 = "https://etch-a-sketch-by-abhishek.netlify.app/" gitHubUrl2 = "https://github.com/AbhishekDevJr/Etch-A-Sketch" pName2 = "Etch-A-Sketch Project" content2 = {projectDiscription2} content3 = {"Announcement discription." + dummyText}
                         />
                         <ProjectCard projectUrl1 = "https://spacexbyabhishek.netlify.app/" gitHubUrl1 = "https://github.com/AbhishekDevJr/spaceX-Clone" pName1 = "SpaceX Website Clone" content1 = {projectDiscription3} projectUrl2 = "https://odinformbyabhishek.netlify.app/" gitHubUrl2 = "https://github.com/AbhishekDevJr/TOP-FormProject" pName2 = "Form Validation Project" content2 = {projectDiscription4} content3 = {"Announcement discription" + dummyText}
                         />

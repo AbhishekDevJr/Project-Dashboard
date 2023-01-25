@@ -7,9 +7,10 @@ class ProjectCard extends Component {
     }
 
     render(){
+        // const {backgroundImage} = this.props.styleCard1;
         return(
             <div className = "card-parent">
-            <div className = "card" style = {{backgroundColor : 'red'}}>
+            <div className = "card" style = {this.props.styleCard1}>
                 <strong><p>{this.props.pName1}</p></strong>
                 <p>{this.props.content1}</p>
                 <div className = "card-links">
